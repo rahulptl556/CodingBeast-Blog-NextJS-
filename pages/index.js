@@ -1,9 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
-export default function Home() {
+
+function Home() {
   return (
     <div className={styles.container}>
       
@@ -13,31 +13,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <nav className={styles.navbar}>
-          <ul>
-            <Link href={'/home'}> <li>Home</li> </Link>
-            <Link href={'/blogs'}> <li>Blogs</li> </Link>
-            <Link href={'/contact'}> <li>Contact</li> </Link>
-            <Link href={'/about'}> <li>About</li> </Link>
-            
-          </ul>
-      </nav>
-
       <main className={styles.main}>
 
         <h1 className={styles.title}>
         Welcome to Coding Beast
         </h1>
 
-        {/* <p>
-        <Image
-          src="/logo.png"
-          alt="Coding Beast Logo"
-          width={400}
-          height={400}
-          priority
-        />
-        </p> */}
+        <Image src="/img.jpg" width={237} height={158}></Image>
 
         <div className={styles.blogs}>
 
@@ -72,3 +54,5 @@ export default function Home() {
     </div>
   )
 }
+
+export default Home;
