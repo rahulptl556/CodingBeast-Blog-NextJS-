@@ -19,7 +19,7 @@ function Home() {
         Welcome to Coding Beast
         </h1>
 
-        <Image src="/img.jpg" width={237} height={158}></Image>
+        <Image src="/img.jpg" width={307} height={178} className={styles.homeImg}></Image>
 
         <div className={styles.blogs}>
 
@@ -49,6 +49,8 @@ function Home() {
             <button className={styles.button}>Read More</button>        
           </div>
         </div>
+
+       
      </main>  
      
     </div>

@@ -21,6 +21,11 @@
   color: black;
 }
 
+.homeImg{
+  border-radius: 15px;
+  box-shadow: 5px;
+}
+
 .center {
   display: flex;
   justify-content: center;
@@ -104,4 +109,14 @@
 .button:hover{
   color: black;
   background-color: wheat;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 60px;
+  background: black;
+  margin-bottom: 10px;
 }
