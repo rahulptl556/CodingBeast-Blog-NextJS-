@@ -7,7 +7,7 @@ function About(){
     return(
         <div className={styles.main}>
 
-                <h2 className={styles.title}>About CodingBeast</h2> 
+                <h2 className={styles.title}>About Coding Beast</h2> 
                       
                 <Image src="/aboutImg.jpg"width={250} height={320} className={styles.aboutImg}></Image>
 
